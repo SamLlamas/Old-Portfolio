@@ -34,23 +34,19 @@
                 Contact
             </h1>
             
-            <form id="inputs">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-            </form>
-
             <form id="inputs" action="action="https://formspree.io/sam.llamas@att.net"
             method="POST"">
+                <label for="name">Name</label>
+                <input name="name" placeholder="Your Name" type="text" id="name" >
+            
                 <label for="name">Email</label>
-                <input type="text" id="name" name="name">
+                <input name="name" placeholder="Your Email" type="text" id="name" >
                        
                 <label for="message">Message</label>
-                <textarea id="message">
-
-                </textarea>
+                <textarea name="message" placeholder="Your Message"  id="message"></textarea>
             </form>
 
-            <button type="submit"  onclick='location.reload()' id="email">Submit</button>
+            <button type="submit" onclick='location.reload()' id="email">Submit</button>
 
             <p class="rest">
                     
