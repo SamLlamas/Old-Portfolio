@@ -44,6 +44,21 @@ li{
     
 }
 
+li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+li a.active {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+}
+
+a{
+    color:#777777;
+}
+
 li:last-child{
     border-right: none;
 }
