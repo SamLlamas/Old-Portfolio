@@ -115,11 +115,14 @@ li:last-child{
     padding: 15px;
     color: grey;
     border-top: 5px solid #4aaaa5;
+    
 }
 
 #inputs{
     letter-spacing: 1px;
     margin: 10px;
+    color: black;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #name{
