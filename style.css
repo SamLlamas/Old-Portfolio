@@ -93,7 +93,13 @@ li:last-child{
 }
 
 #container{
-    margin-top: 10px; 
+    margin-top: 10px;
+}
+
+#bodyontainer{
+    margin-top: 10px;
+    align-content: center;
+
 }
 
 #bio{
@@ -144,5 +150,9 @@ li:last-child{
     background: #4aaaa5;
     color: white;
     font-size: 1.1em;
+}
+
+img{
+    margin: 30px 20px;
 }
 
