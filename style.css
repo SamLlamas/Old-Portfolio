@@ -86,9 +86,6 @@ li:last-child{
 
 #portrait{
     float: left;
-}
-
-#portrait{
     margin-right: 10px;
 }
 
@@ -96,11 +93,6 @@ li:last-child{
     margin-top: 10px;
 }
 
-#bodyontainer{
-    margin-top: 10px;
-    align-content: center;
-
-}
 
 #bio{
     margin-right: 10px;
@@ -152,7 +144,32 @@ li:last-child{
     font-size: 1.1em;
 }
 
-img{
-    margin: 30px 20px;
+
+.bodyContainer img:first-child{
+    
+    margin-left: auto;
+    margin-right: 30px;
+    display: inline-block;
+    
 }
+
+.bodyContainer img:last-child{
+    
+    margin-left: 30px;
+    margin-right: auto;
+    display: inline-block;
+    
+}
+
+
+.bodyContainer{
+    width: 960px;
+    text-align:center;
+    margin-top: 20px;
+
+
+}
+
+
+
 
