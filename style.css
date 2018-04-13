@@ -92,7 +92,7 @@ li:last-child{
 
 #portrait{
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #container{
@@ -100,16 +100,18 @@ li:last-child{
 }
 
 
-#bio{
+.bio{
     margin-right: 10px;
     line-height: 2;
+    text-indent: 25px;
 }
-
+h2{
+    margin-top: 20px;
+}
 .rest{
     float: left;
     line-height: 2;
     text-indent: 50px;
-    margin-top: 40px 
 }
 
 #copyright{
